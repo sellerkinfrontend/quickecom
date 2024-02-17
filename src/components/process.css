@@ -1,0 +1,21 @@
+.line::after{
+    content: '';
+    width: 5px;
+    height: 1180px;
+    display: block;
+    background-color: #F95700;
+    position: absolute;
+    left: 50%;
+}
+
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .line::after {
+       height: 1530px;
+    }
+ }
+ @media only screen and (min-width: 1024px) and (max-width: 1280px) {
+    .line::after{
+     height:1200px ;
+    }
+   }
+ 
