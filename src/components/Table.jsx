@@ -20,11 +20,6 @@ const Table = () => {
             <td>Yes</td>
         </tr>
         <tr className='font-semibold'>
-            <td className='text-left' style={{textAlign:'left',paddingLeft:'25px'}}>Whatsapp Support </td>
-            <td>Yes</td>
-            <td>No</td>
-        </tr>
-        <tr className='font-semibold'>
             <td className='text-left' style={{textAlign:'left',paddingLeft:'25px'}}>Delivery Time </td>
             <td>7-21 Days</td>
             <td>30-45 Days</td>
