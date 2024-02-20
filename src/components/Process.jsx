@@ -45,7 +45,7 @@ const Process = () => {
                     <div className='bg-white md:w-5/12 xl:h-[180px] md:h-[250px] lg:h-[220px] border-2 border-custom-color-1 flex flex-col justify-center items-center rounded-3xl shadow-lg md:p-5 p-3 mt-2 w-10/12 md:mt-10 mx-auto md:mx-0'>
                         <p className='xl:text-3xl md:text-2xl text-lg font-semibold'>Setting up a Roadmap</p>
                         <div className='mt-2'>
-                            <p>   Crafting a comprehensive roadmap, we outline crucial milestones, development phases, and timelines. As a bonus, we offer a complimentary Shopify theme, valued at approximately $250 USD (Rs 24,000/- INR). </p>
+                            <p>   Crafting a comprehensive roadmap, we outline crucial milestones, development phases, and timelines. As a bonus, we offer a complimentary Shopify theme, valued at approximately $200 USD (Rs 16,500/- INR). </p>
                         </div>
 
                     </div>
