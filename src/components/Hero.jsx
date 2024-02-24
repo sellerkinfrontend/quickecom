@@ -8,6 +8,7 @@ import ConnectWithUs from './ConnectWithUs'
 import Table from './Table'
 import Navbar from './Navbar.jsx'
 import Process from './Process'
+import CarouselCT from "./CarouselCT.jsx"
 const Hero = () => {
     return (
         <div className='bg-custom-color'>
@@ -169,6 +170,23 @@ const Hero = () => {
             <div className='mt-10'>
                 <Carousel2 />
             </div>
+
+            <div className="mt-20">
+                <div className="xl:text-5xl text-2xl lg:text-4xl flex justify-center  items-center  mt-10 md:mt-20 font-serif font-medium text-custom-color-1">
+                  <p>Customer Testimonials</p>
+                </div>
+                <div className=" md:flex justify-center mt-2">
+                  <img
+                    src={underline}
+                    alt="img loading"
+                    className="mx-auto w-10/12 md:w-4/12 lg:w-5/12 xl:w-6/12"
+                  />
+                </div>
+                <div className="mt-10">
+                  <CarouselCT />
+                </div>
+            </div>
+            
             <div>
                 <Process />
             </div>
