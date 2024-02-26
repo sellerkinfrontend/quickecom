@@ -31,9 +31,23 @@ const CarouselCT = () => {
             If you are looking for a shopify website, I would highly recommend
             them. Cheers !!
           </p>
-          <p className="font-medium mt-5">
-            Ajay Binani ( Founder of Minimalistee.com )
-          </p>
+          <div
+            className="mt-5"
+            style={{
+              display: "flex",
+              gap: "15px",
+              alignItems: "center",
+            }}
+          >
+            <p className="font-medium">
+              Ajay Binani ( Founder of Minimalistee.com )
+            </p>
+            <img
+              src="https://sellerkin.com/static/media/Group%20486.b3a329ee014907cfb77443bf44666c07.svg"
+              alt="star"
+              style={{ height: "25px", display: "inline" }}
+            />
+          </div>
         </div>
       </div>
       <div>
@@ -44,9 +58,21 @@ const CarouselCT = () => {
             ready to work in my budget. Would definitely recommend their
             services!
           </p>
-          <p className="font-medium mt-5">
-            Cydwel ( Founder of moybyabeni.com )
-          </p>
+          <div
+            className="mt-5"
+            style={{
+              display: "flex",
+              gap: "15px",
+              alignItems: "center",
+            }}
+          >
+            <p className="font-medium">Cydwel ( Founder of moybyabeni.com )</p>
+            <img
+              src="https://sellerkin.com/static/media/Group%20486.b3a329ee014907cfb77443bf44666c07.svg"
+              alt="star"
+              style={{ height: "25px", display: "inline" }}
+            />
+          </div>
         </div>
       </div>
     </Slider>
