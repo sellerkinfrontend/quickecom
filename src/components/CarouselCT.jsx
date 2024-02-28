@@ -35,6 +35,7 @@ const CarouselCT = () => {
             className="mt-5"
             style={{
               display: "flex",
+              flexWrap: "wrap",
               gap: "15px",
               alignItems: "center",
             }}
@@ -62,6 +63,7 @@ const CarouselCT = () => {
             className="mt-5"
             style={{
               display: "flex",
+              flexWrap: "wrap",
               gap: "15px",
               alignItems: "center",
             }}
