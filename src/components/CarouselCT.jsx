@@ -77,6 +77,34 @@ const CarouselCT = () => {
           </div>
         </div>
       </div>
+            <div>
+        <div className="flex flex-col  w-10/12 md:w-7/12 mx-auto p-4  rounded-xl bg-custom-color-2 shadow-lg mt-10">
+          <p className="mb-2">
+            Amit and his team have been extremely prompt and efficient as
+            developers. Couple of features which have been new for us were made
+            easy under their guidance. I highly recommend the team for any
+            developments and support.
+          </p>
+          <div
+            className="mt-5"
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              gap: "15px",
+              alignItems: "center",
+            }}
+          >
+            <p className="font-medium">
+              Kritika ( Founder of Rankneverretires.com )
+            </p>
+            <img
+              src="https://sellerkin.com/static/media/Group%20486.b3a329ee014907cfb77443bf44666c07.svg"
+              alt="star"
+              style={{ height: "25px", display: "inline" }}
+            />
+          </div>
+        </div>
+      </div>
     </Slider>
   );
 };
