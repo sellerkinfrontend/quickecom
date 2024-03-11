@@ -77,11 +77,8 @@ const CarouselCT = () => {
           </div>
         </div>
       </div>
-<<<<<<< HEAD
+
       <div>
-=======
-            <div>
->>>>>>> be3891dff774d2146e97b195b6ea1c7bd27ba16d
         <div className="flex flex-col  w-10/12 md:w-7/12 mx-auto p-4  rounded-xl bg-custom-color-2 shadow-lg mt-10">
           <p className="mb-2">
             Amit and his team have been extremely prompt and efficient as
