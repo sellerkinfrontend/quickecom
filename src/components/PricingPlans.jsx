@@ -304,13 +304,13 @@ const PricingPlan = () => {
           <p className="font-semibold text-gray-500 text-sm my-2">
             (Not included in both the Packages)
           </p>
-          <ul className="">
+          <ol className="list-decimal px-4">
             <li className="text-sm">
-              1. Cost of Shopify Plan, Shopify App Pricing or Domain{" "}
+              Cost of Shopify Plan, Shopify App Pricing or Domain
             </li>
-            <li className="text-sm">2. Logo Design, Images creations </li>
-            <li className="text-sm">3. Data entry or product upload </li>
-          </ul>
+            <li className="text-sm">Logo Design, Images creations </li>
+            <li className="text-sm">Data entry or product upload </li>
+          </ol>
         </div>
       </div>
     </div>
