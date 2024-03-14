@@ -139,6 +139,14 @@ const PricingPlan = () => {
                   src="https://cdn-icons-png.flaticon.com/128/14034/14034688.png"
                   className="h-6"
                 />
+                <span>Bonus worth upto Rs 17k</span>
+              </li>
+              <li className="flex items-center gap-2 mb-2">
+                <img
+                  // src="https://cdn-icons-png.flaticon.com/128/9778/9778606.png"
+                  src="https://cdn-icons-png.flaticon.com/128/14034/14034688.png"
+                  className="h-6"
+                />
                 <span>
                   Readymade Mobile Responsive Mobile theme as per your Branding
                 </span>
@@ -212,6 +220,14 @@ const PricingPlan = () => {
                   className="h-6"
                 />
                 <span>Shopify Store Setup and Configuration</span>
+              </li>
+              <li className="flex items-center gap-2 mb-2">
+                <img
+                  // src="https://cdn-icons-png.flaticon.com/128/9778/9778606.png"
+                  src="https://cdn-icons-png.flaticon.com/128/14034/14034688.png"
+                  className="h-6"
+                />
+                <span>Bonus worth upto Rs 17k</span>
               </li>
               <li className="flex items-center gap-2 mb-2">
                 <img
