@@ -9,9 +9,7 @@ import Table from "./Table";
 import Navbar from "./Navbar.jsx";
 import Process from "./Process";
 import CarouselCT from "./CarouselCT.jsx";
-import CombinedCarousel from "./CarouselTM.jsx";
 import PricingPlan from "./PricingPlans.jsx";
-import badge from "../assets/designrush/badge1.png";
 const Hero = () => {
   return (
     <div className="bg-custom-color">
@@ -208,26 +206,12 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="xl:text-3xl md:text-xl hidden md:flex justify-center gap-6  items-center flex-col  mt-12 font-serif font-medium">
+      <div className="xl:text-3xl md:text-xl hidden md:flex justify-center  items-center  mt-12 font-serif font-medium">
         <p>Now, Your e-commerce web development is in SAFE hands. </p>
-        {/* <div className="">
-          <img
-            src={badge}
-            alt="ecomquiksolutions on DesignRush"
-            className="h-[220px] "
-          />
-        </div> */}
       </div>
       <div className=" md:hidden flex flex-col justify-center  items-center  mt-6 font-serif font-medium text-lg">
         <p>Now, Your e-commerce web </p>
         <p> development is in SAFE hands. </p>
-        {/* <div className="">
-          <img
-            src={badge}
-            alt="ecomquiksolutions on DesignRush"
-            className="h-[150px] mt-4"
-          />
-        </div> */}
       </div>
 
       <div className="xl:text-5xl text-2xl lg:text-4xl flex justify-center  items-center  mt-10 md:mt-20 font-serif font-medium text-custom-color-1">
@@ -240,12 +224,7 @@ const Hero = () => {
           className="mx-auto w-10/12 md:w-4/12 lg:w-5/12 xl:w-6/12"
         />
       </div>
-
-      {/* ********************************** */}
-      <CombinedCarousel />
-      {/* ********************************** */}
-
-      {/* <div className="xl:text-2xl md:text-base flex justify-center  items-center mt-16 md:mt-28 font-serif font-medium">
+      <div className="xl:text-2xl md:text-base flex justify-center  items-center mt-10 md:mt-16 font-serif font-medium">
         <p style={{ color: "#f7516e" }}>pallavipoddar.com</p>
       </div>
       <div className="mt-10">
@@ -262,7 +241,7 @@ const Hero = () => {
       </div>
       <div className="mt-10">
         <Carousel2 />
-      </div> */}
+      </div>
 
       <div className="mt-20">
         <div className="xl:text-5xl text-2xl lg:text-4xl flex justify-center  items-center  mt-10 md:mt-20 font-serif font-medium text-custom-color-1">
@@ -305,7 +284,7 @@ const Hero = () => {
       <div className="">
         <PricingPlan />
       </div>
-
+      
       <div className="">
         <Faq />
       </div>
