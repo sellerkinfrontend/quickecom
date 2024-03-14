@@ -196,7 +196,7 @@ const PricingPlan = () => {
           <div className="h-16 gap-2 flex flex-col justify-center items-center my-5">
             <p className="font-semibold text-3xl ">Premium</p>
             <p className=" font-semibold text-gray-600 text-[12px] my-2 text-center">
-              (You can choose all features or as per requirement)
+              (You can choose all features or as per your requirement)
             </p>
             {/* <p className="text-xl">$399.99</p>
             <p className="text-md text-gray-500">per month</p> */}
@@ -306,7 +306,7 @@ const PricingPlan = () => {
           </p>
           <ul className="">
             <li className="text-sm">
-              1. Cost of Shopify Plan, Shopify Apps or Domain{" "}
+              1. Cost of Shopify Plan, Shopify App Pricing or Domain{" "}
             </li>
             <li className="text-sm">2. Logo Design, Images creations </li>
             <li className="text-sm">3. Data entry or product upload </li>
