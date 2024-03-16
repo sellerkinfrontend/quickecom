@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
+import star from "../assets/stars/star.png";
 const CarouselCT = () => {
   const settings = {
     dots: true,
@@ -44,7 +44,7 @@ const CarouselCT = () => {
               Ajay Binani ( Founder of Minimalistee.com )
             </p>
             <img
-              src="https://sellerkin.com/static/media/Group%20486.27e82cfb1ca9aa31bb0b.webp"
+              src={star}
               alt="star"
               style={{ height: "25px", display: "inline" }}
             />
@@ -70,7 +70,7 @@ const CarouselCT = () => {
           >
             <p className="font-medium">Cydwel ( Founder of moybyabeni.com )</p>
             <img
-              src="https://sellerkin.com/static/media/Group%20486.27e82cfb1ca9aa31bb0b.webp"
+              src={star}
               alt="star"
               style={{ height: "25px", display: "inline" }}
             />
@@ -99,7 +99,7 @@ const CarouselCT = () => {
               Kritika ( Founder of Rankneverretires.com )
             </p>
             <img
-              src="https://sellerkin.com/static/media/Group%20486.27e82cfb1ca9aa31bb0b.webp"
+              src={star}
               alt="star"
               style={{ height: "25px", display: "inline" }}
             />
