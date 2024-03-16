@@ -139,7 +139,7 @@ const PricingPlan = () => {
                   src="https://cdn-icons-png.flaticon.com/128/14034/14034688.png"
                   className="h-6"
                 />
-                <span>Bonus worth upto Rs 17k</span>
+                <span>Bonus - Shopify theme worth upto Rs 17k</span>
               </li>
               <li className="flex items-center gap-2 mb-2">
                 <img
@@ -189,7 +189,7 @@ const PricingPlan = () => {
               ))}
             </ul>
           </div>
-          <hr className="w-8/12 mx-auto" />
+          {/* <hr className="w-8/12 mx-auto" /> */}
         </div>
 
         <div
@@ -227,7 +227,7 @@ const PricingPlan = () => {
                   src="https://cdn-icons-png.flaticon.com/128/14034/14034688.png"
                   className="h-6"
                 />
-                <span>Bonus worth upto Rs 17k</span>
+                <span>Bonus - Shopify theme worth upto Rs 17k</span>
               </li>
               <li className="flex items-center gap-2 mb-2">
                 <img
@@ -297,20 +297,7 @@ const PricingPlan = () => {
           <hr className="w-8/12 mx-auto" />
           <div id="Meta" className="px-8 my-4 text-sm"> */}
         {/* <p className="font-semibold">META's CHARGES</p> */}
-        {/* <ul className="my-4">
-              {features.map((f, index) => (
-                <li className="flex items-center gap-2 mb-2" key={index}>
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/128/9778/9778606.png"
-                    className="h-4"
-                  />
-                  <span>{f}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <hr className="w-8/12 mx-auto" />
-        </div> */}
+
         <div
           id="NOTE"
           className=" rounded-md shadow w-10/12 sm:w-8/12 md:w-6/12 lg:w-5/12 mx-auto bg-white lg:col-span-2 p-4 "

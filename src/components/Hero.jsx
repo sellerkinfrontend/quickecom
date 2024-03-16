@@ -11,7 +11,7 @@ import Process from "./Process";
 import CarouselCT from "./CarouselCT.jsx";
 import CombinedCarousel from "./CarouselTM.jsx";
 import PricingPlan from "./PricingPlans.jsx";
-import badge from "../assets/designrush/badge1.png";
+import badge from "../assets/designrush/badge2.png";
 const Hero = () => {
   return (
     <div className="bg-custom-color">
@@ -21,6 +21,13 @@ const Hero = () => {
         <p className="border-2  rounded-2xl bg-custom-color-1 border-custom-color-1 w-64 mx-auto flex justify-center items-center text-white font-serif xl:text-base md:text-xs lg:text-sm">
           This is an invite only page ...
         </p>
+      </div>
+      <div className="absolute top-[10px] left-[25px] hidden md:block ">
+        <img
+          src={badge}
+          alt="ecomquiksolutions on DesignRush"
+          className="md:h-[80px] lg:h-[130px]  xl:h-[150px] mx-auto"
+        />
       </div>
       <div className="xl:text-lg md:text-base hidden md:flex justify-center flex-col items-center  mt-5 font-medium font-serif">
         <p>
@@ -93,6 +100,13 @@ const Hero = () => {
             Customer Acquisition Cost
           </span>{" "}
         </p>
+      </div>
+      <div className="mt-5 md:hidden">
+        <img
+          src={badge}
+          alt="ecomquiksolutions on DesignRush"
+          className="h-[100px] sm:h-[130px] mx-auto"
+        />
       </div>
       <div className=" md:hidden flex justify-center flex-col items-center  mt-5 font-serif text-lg">
         <p>
@@ -210,24 +224,10 @@ const Hero = () => {
 
       <div className="xl:text-3xl md:text-xl hidden md:flex justify-center gap-6  items-center flex-col  mt-12 font-serif font-medium">
         <p>Now, Your e-commerce web development is in SAFE hands. </p>
-        {/* <div className="">
-          <img
-            src={badge}
-            alt="ecomquiksolutions on DesignRush"
-            className="h-[220px] "
-          />
-        </div> */}
       </div>
       <div className=" md:hidden flex flex-col justify-center  items-center  mt-6 font-serif font-medium text-lg">
         <p>Now, Your e-commerce web </p>
         <p> development is in SAFE hands. </p>
-        {/* <div className="">
-          <img
-            src={badge}
-            alt="ecomquiksolutions on DesignRush"
-            className="h-[150px] mt-4"
-          />
-        </div> */}
       </div>
 
       <div className="xl:text-5xl text-2xl lg:text-4xl flex justify-center  items-center  mt-10 md:mt-20 font-serif font-medium text-custom-color-1">
