@@ -23,11 +23,16 @@ const Hero = () => {
         </p>
       </div>
       <div className="absolute top-[10px] left-[25px] hidden md:block ">
-        <img
-          src={badge}
-          alt="ecomquiksolutions on DesignRush"
-          className="md:h-[80px] lg:h-[130px]  xl:h-[150px] mx-auto"
-        />
+        <a
+          href="https://www.designrush.com/agency/profile/ecomquiksolutions"
+          target="_blank"
+        >
+          <img
+            src={badge}
+            alt="ecomquiksolutions on DesignRush"
+            className="md:h-[80px] lg:h-[130px]  xl:h-[150px] mx-auto"
+          />
+        </a>
       </div>
       <div className="xl:text-lg md:text-base hidden md:flex justify-center flex-col items-center  mt-5 font-medium font-serif">
         <p>
@@ -102,11 +107,16 @@ const Hero = () => {
         </p>
       </div>
       <div className="mt-5 md:hidden">
-        <img
-          src={badge}
-          alt="ecomquiksolutions on DesignRush"
-          className="h-[100px] sm:h-[130px] mx-auto"
-        />
+        <a
+          href="https://www.designrush.com/agency/profile/ecomquiksolutions"
+          target="_blank"
+        >
+          <img
+            src={badge}
+            alt="ecomquiksolutions on DesignRush"
+            className="h-[100px] sm:h-[130px] mx-auto"
+          />
+        </a>
       </div>
       <div className=" md:hidden flex justify-center flex-col items-center  mt-5 font-serif text-lg">
         <p>
