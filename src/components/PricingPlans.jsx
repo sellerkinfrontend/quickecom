@@ -133,14 +133,14 @@ const PricingPlan = () => {
                 />
                 <span>Shopify Store Setup and Configuration</span>
               </li>
-              <li className="flex items-center gap-2 mb-2">
+              {/* <li className="flex items-center gap-2 mb-2">
                 <img
                   // src="https://cdn-icons-png.flaticon.com/128/9778/9778606.png"
                   src="https://cdn-icons-png.flaticon.com/128/14034/14034688.png"
                   className="h-6"
                 />
                 <span>Bonus - Shopify theme worth upto Rs 17k</span>
-              </li>
+              </li> */}
               <li className="flex items-center gap-2 mb-2">
                 <img
                   // src="https://cdn-icons-png.flaticon.com/128/9778/9778606.png"
@@ -221,14 +221,14 @@ const PricingPlan = () => {
                 />
                 <span>Shopify Store Setup and Configuration</span>
               </li>
-              <li className="flex items-center gap-2 mb-2">
+              {/* <li className="flex items-center gap-2 mb-2">
                 <img
                   // src="https://cdn-icons-png.flaticon.com/128/9778/9778606.png"
                   src="https://cdn-icons-png.flaticon.com/128/14034/14034688.png"
                   className="h-6"
                 />
                 <span>Bonus - Shopify theme worth upto Rs 17k</span>
-              </li>
+              </li> */}
               <li className="flex items-center gap-2 mb-2">
                 <img
                   // src="https://cdn-icons-png.flaticon.com/128/9778/9778606.png"
