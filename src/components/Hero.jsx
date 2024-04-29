@@ -12,6 +12,7 @@ import CarouselCT from "./CarouselCT.jsx";
 import CombinedCarousel from "./CarouselTM.jsx";
 import PricingPlan from "./PricingPlans.jsx";
 import badge from "../assets/designrush/badge2.png";
+import Footer from "./Footer.jsx";
 const Hero = () => {
   return (
     <div className="bg-custom-color">
@@ -321,6 +322,9 @@ const Hero = () => {
       </div>
       <div>
         <ConnectWithUs />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   );
