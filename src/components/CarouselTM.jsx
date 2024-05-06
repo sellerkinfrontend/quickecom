@@ -6,12 +6,12 @@ import "slick-carousel/slick/slick-theme.css";
 import myo from "../assets/desktop/lap/myo.png";
 import mini from "../assets/desktop/lap/mini.png";
 import pallavi from "../assets/desktop/lap/pallavi.png";
-import rank from "../assets/desktop/lap/rank.png";
+// import rank from "../assets/desktop/lap/rank.png";
 
 import myoM from "../assets/mobile/myo.JPG";
 import miniM from "../assets/mobile/mini.JPG";
 import pallaviM from "../assets/mobile/pallavi.JPG";
-import rankM from "../assets/mobile/rank.JPG";
+// import rankM from "../assets/mobile/rank.JPG";
 function CombinedCarousel() {
   const settings = {
     dots: false,
@@ -50,9 +50,9 @@ function CombinedCarousel() {
                 className="object-cover  mx-auto"
               />
             </div>
-            <div>
+            {/* <div>
               <img src={rank} alt="Img 2" className="object-cover  mx-auto" />
-            </div>
+            </div> */}
           </Slider>
           <div className="w-[100%] h-[9.5px] sm:h-[10px] md:h-[13px] lg:h-[15px] bg-[#363238]  rounded-bl-[12px] rounded-br-[12px] relative">
             <div className="w-[20%] h-[2px] sm:h-[3px] md:h-[4px] lg:h-[6px] bg-black mx-auto rounded-bl-[70%] rounded-br-[70%]"></div>
@@ -87,9 +87,9 @@ function CombinedCarousel() {
               className="rounded  object-contain"
             />
           </div>
-          <div>
+          {/* <div>
             <img src={rankM} alt="Img 2" className="rounded  object-contain" />
-          </div>
+          </div> */}
         </Slider>
       </div>
     </div>
