@@ -11,7 +11,9 @@ function Contactus() {
         &nbsp;&nbsp; &nbsp; Rohini, Delhi-110085 India
       </p>
       <p>Mobile No. +91-9873294471</p>
-      <p>For any query, Please send us an email at sellerkin@gmail.com </p>
+      <p>
+        For any query, Please send us an email at ecommstoresolutions@gmail.com{" "}
+      </p>
     </div>
   );
 }

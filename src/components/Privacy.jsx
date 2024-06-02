@@ -396,7 +396,7 @@ function Privacy() {
       <br />
       <br />
       We welcome your comments or questions about this Policy. You may contact
-      us in writing at sellerkin@gmail.com
+      us in writing at ecommstoresolutions@gmail.com
     </div>
   );
 }

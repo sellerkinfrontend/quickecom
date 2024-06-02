@@ -8,7 +8,7 @@ function Cancellation() {
       refund or exchange.
       <br />
       <br />
-      To be eligible for a return, you should reach out to sellerkin@gmail.com
+      To be eligible for a return, you should reach out to ecommstoresolutions@gmail.com
       within 7 days of your purchase with receipt or proof of purchase.
       <br />
       <br />
@@ -31,7 +31,7 @@ function Cancellation() {
       <br />
       <br />
       If you&apos;ve done all of this and you still have not received your
-      refund yet, please contact us at sellerkin@gmail.com
+      refund yet, please contact us at ecommstoresolutions@gmail.com
     </div>
   );
 }

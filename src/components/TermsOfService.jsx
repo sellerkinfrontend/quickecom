@@ -216,7 +216,7 @@ function Termsofservice() {
       through the courts of the country where the Company is set up.
       <h5>Contact Information</h5>
       We welcome your comments or questions about this Terms. You may contact us
-      in writing at sellerkin@gmail.com
+      in writing at ecommstoresolutions@gmail.com
     </div>
   );
 }
